@@ -1,0 +1,31 @@
+<form class="form-horizontal form-complex">
+    <div class="control-group">
+        <label class="control-label" for="filetype">Download as</label>
+        <div class="controls">
+            <label class="checkbox" for="as_csv">
+                <input type="checkbox" name="action.download.param.as_csv" id="as_csv" value="1"/>
+                CSV
+            </label>
+            <label class="checkbox" for="as_pdf">
+                <input type="checkbox" name="action.download.param.as_pdf" id="as_pdf" value="1"/>
+                PDF
+            </label>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="location">Location</label>
+        <div class="controls">
+            <input type="text" class="input-xlarge" name="action.download.param.location" id="location"/>
+        </div>
+    </div>
+    <div class="control_group">
+        <div class="controls">
+            <span class="help-block" style="display: block; position: static; width: auto; margin-left: 0;">
+                Where to save the CSV or PDF file?.
+            </span>
+            <span class="help-block" style="display: block; position: static; width: auto; margin-left: 0;">
+                (ex: /home/user/Desktop or C:/Users/name/Desktop)
+            </span>
+        </div>
+    </div>
+</form>
