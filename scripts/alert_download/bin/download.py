@@ -7,7 +7,7 @@ import time
 
 
 t = time.localtime()
-current_time = time.strftime('%Y-%m-%d', t)
+current_time = time.strftime('%Y%m%d-%H%M', t)
 
 def setup_logger(level):
     logger = logging.getLogger('download_results_logger')
